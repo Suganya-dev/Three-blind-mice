@@ -1,0 +1,54 @@
+{
+    "computer1": [
+        {
+            "id": 1,
+            "model": "Macbook Pro",
+            "year": 2015
+        },
+        {
+            "id": 2,
+            "model": "Macbook Pro Elite",
+            "year": 2011
+        },
+        {
+            "id": 3,
+            "model": "HP",
+            "year": 2018
+        },
+        {
+            "id": 4,
+            "model": "Samsung",
+            "year": 2019
+        }
+    ],
+    "employee1": [
+        {
+            "id": 1,
+            "firstName": "Rainu",
+            "lastName": "Ittycheriah",
+            "computerId": 1
+        },
+        {
+            "id": 2,
+            "firstName": "Sam",
+            "lastName": "butler",
+            "computerId": 2
+        },
+        {
+            "id": 3,
+            "firstName": "mario",
+            "lastName": "Karen",
+            "computerId": 3
+        },
+        {
+            "id": 4,
+            "firstName": "mario",
+            "lastName": "Karen",
+            "computerId": 4
+        }
+    ]
+}
+    
+      
+    
+    
