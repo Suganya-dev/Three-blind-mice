@@ -1,6 +1,6 @@
 const contentTarget = document.querySelector(".employeecontainer")
 // got reference to both arrays
-
+export const employeeList =() =>{
 const employees = useEmployees()
 const computers = useComputers()
 
@@ -17,3 +17,4 @@ const employeearray = employees.find(emplObj =>{
 
 const stringofallrepresentation = computerarray.join("")
 contentTarget.innerHTML = stringofallrepresentation
+}

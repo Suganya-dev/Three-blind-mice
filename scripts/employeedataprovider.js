@@ -2,6 +2,7 @@ let employees =[]
 
 export const getEmployees = () =>{
     return fetch(" http://localhost:8088/employee1")
+    console.log(getEmployees)}
     .then(response => response.json())
     .then(parsedemployees =>{
     
