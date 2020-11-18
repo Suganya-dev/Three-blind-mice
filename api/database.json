@@ -1,5 +1,5 @@
 {
-    "computer1": [
+    "computers": [
         {
             "id": 1,
             "model": "Macbook Pro",
@@ -21,7 +21,7 @@
             "year": 2019
         }
     ],
-    "employee1": [
+    "employees": [
         {
             "id": 1,
             "firstName": "Rainu",

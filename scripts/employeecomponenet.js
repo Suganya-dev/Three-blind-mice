@@ -1,4 +1,4 @@
-export const employeecard = (employeeObj) =>{
+export const employeecard = (employeeObj,computerObj) =>{
     return `
     <section class="employees">
     <p> id: ${employeeObj.id}</p>
