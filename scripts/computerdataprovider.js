@@ -1,13 +1,14 @@
 let Computer=[]
 
-export const useComputers = () =>{
+export const getComputers = () =>{
     return fetch("http://localhost:8088/computer1")
     .then(response=> response.json())
     .then(parsedcomputers =>{
         Computer = parsedcomputers
+        console.log(parsedcomputers)
     })
 }
 
-export const getComputers = () =>{
+export const useComputers = () =>{
     return Computer.slice()
 }
