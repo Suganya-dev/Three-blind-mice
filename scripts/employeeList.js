@@ -11,17 +11,20 @@ export const employeeList = () => {
         .then(() => {
             const employ = useEmployees()
             const comput = useComputers()
+            console.log(employ,comput)
             render(employ, comput)
         })
 }
 const render = (employeeArray, computerArray) => {
-    contentTarget.innerHTML = employeeArray.map(empObj => {
-        const computers = computerArray.filter(compObj => {
-            compObj.id === employeeArray.computerId
-        })
-
-        const html = employeecard(empObj, computers)
-        return html
-    }).join("")
-
+    
+     employeeArray.forEach(empObj => {
+        const computer = computerArray.find(compObj => 
+      compObj.id === empObj.computerId
+             )
+      console.log(computer)
+           
+      return contentTarget.innerHTML += employeecard(empObj, computer)
+       
+    })
 }
+

@@ -1,4 +1,6 @@
 export const employeecard = (employeeObj,computerObj)=>{
+    console.log(computerObj)
+    console.log(employeeObj)
     // debugger
     return `
     <section class="employees">
