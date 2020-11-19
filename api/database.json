@@ -26,27 +26,54 @@
             "id": 1,
             "firstName": "Rainu",
             "lastName": "Ittycheriah",
-            "computerId": 1
+            "computerId": 1,
+            "age": 19,
+            "deptId" : 1
         },
         {
             "id": 2,
             "firstName": "Sam",
             "lastName": "butler",
-            "computerId": 2
+            "computerId": 2,
+            "age": 19,
+            "deptId" : 2
         },
         {
             "id": 3,
             "firstName": "mario",
             "lastName": "Karen",
-            "computerId": 3
+            "computerId": 3,
+            "age": 19,
+            "deptId" : 3
         },
         {
             "id": 4,
             "firstName": "mario",
             "lastName": "Karen",
-            "computerId": 4
+            "computerId": 4,
+            "age": 19,
+            "deptId" : 4
         }
-    ]
+    ],
+
+    "departments":[
+        {
+         "id": 1,
+         "name": "ECE"
+        },
+        {
+            "id": 2,
+            "name": "EEE"
+        },
+        {
+            "id": 3,
+            "name": "CSE"
+         },
+         {
+            "id": 4,
+            "name": "MECH"
+           }
+        ]
 }
     
       
